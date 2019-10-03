@@ -1,0 +1,61 @@
+{
+	"info": {
+		"_postman_id": "634943df-9fa5-4752-aaf1-bda99aa3c1b1",
+		"name": "练习",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "百度--黑马程序员",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://www.baidu.com/s?wd=黑马程序员",
+					"protocol": "http",
+					"host": [
+						"www",
+						"baidu",
+						"com"
+					],
+					"path": [
+						"s"
+					],
+					"query": [
+						{
+							"key": "wd",
+							"value": "黑马程序员"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "百度--周雨彤",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://www.baidu.com/s?wd=周雨彤",
+					"protocol": "http",
+					"host": [
+						"www",
+						"baidu",
+						"com"
+					],
+					"path": [
+						"s"
+					],
+					"query": [
+						{
+							"key": "wd",
+							"value": "周雨彤"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
